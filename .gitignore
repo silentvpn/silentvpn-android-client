@@ -1,0 +1,26 @@
+# ===== Android / Gradle =====
+.gradle/
+build/
+**/build/
+
+# ===== Local SDK config =====
+local.properties
+
+# ===== APK / RAR files =====
+*.apk
+*.aab
+*.rar
+
+# ===== Logs =====
+*.log
+
+# ===== Database =====
+user_data.db
+
+# ===== Secret Official Servers =====
+app/src/main/java/com/v2ray/ang/shadowmm/secret/OfficialServersLocal.kt
+
+# 🚫 Large binaries
+app/libs/*.aar
+*.zip
+
