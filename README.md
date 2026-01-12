@@ -30,7 +30,13 @@ This project focuses on the **client-side implementation only**, including UI, c
 ---
 
 ## Project Structure
-
+app/
+├── src/
+│ ├── main/
+│ │ ├── java/ # App source code
+│ │ ├── res/ # UI resources
+│ │ └── AndroidManifest.xml
+└── build.gradle.kts
 
 ---
 
