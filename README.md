@@ -1,17 +1,33 @@
 # SilentVPN (Android Client)
 
-⚠️ This repository contains ONLY the Android client.
-⚠️ No real VPN servers, API endpoints, or keys are included.
+⚠️ **IMPORTANT NOTICE**  
+This repository contains **ONLY the Android client source code**.  
+❌ No VPN servers  
+❌ No API endpoints  
+❌ No credentials, keys, or accounts  
+❌ No binary VPN core files  
+
+All sensitive or production components are intentionally excluded.
+
+---
+
+## Overview
+
+SilentVPN is an Android VPN client built on top of **V2Ray** technology.  
+This project focuses on the **client-side implementation only**, including UI, connection handling, and usage tracking.
+
+---
 
 ## Features
+
 - V2Ray-based VPN client
-- Data usage tracking
-- Reward system (Ads)
+- Traffic usage tracking (RX / TX)
+- Reward system (Ads-based)
 - Multi-language support
+- Modern Android architecture (Kotlin)
+- Secure networking configuration
 
-## Setup
-This project requires your own backend and VPN servers.
-Replace BuildConfig values with your own in production builds.
+---
 
-## Disclaimer
-This project is for educational purposes only.
+## Project Structure
+
